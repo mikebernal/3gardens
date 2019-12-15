@@ -1,0 +1,47 @@
+.card-holder {
+  display: flex;
+  flex-direction: row;
+  margin:4em 0;
+
+  @mixin atSm {
+    flex-direction: column;
+  }
+}
+
+.card {
+  width: 100%;
+  border: 1px solid silver;
+  padding: .5em; 
+  margin: 0 .5em 2em 0;
+}
+  .card__title {
+    height: 10%;
+  }
+
+  .card__image {
+    border:1px solid black;
+    background: rgba(252, 244, 244, 0.507);
+    width: auto;
+    /* width: 290px; */
+    height: 160px;
+    text-align: center;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .card__blurb {
+    padding: .5em;
+    height: 145px;
+    overflow: hidden;
+    margin-bottom: 1em;
+  }
+
+  .card__cta {
+    padding: .5em;
+  }
+
+  @mixin atSm {
+    margin: 0 auto;
+  }

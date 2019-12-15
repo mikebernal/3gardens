@@ -1,0 +1,3 @@
+slideshow image = 1200 X 800
+Hero = 1920 X 796
+Avatar = 400 X 260

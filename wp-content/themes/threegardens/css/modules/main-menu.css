@@ -1,0 +1,16 @@
+.main-menu {
+  background: none;
+  padding: 1em;
+  margin-bottom: 1em; 
+  color: black;
+  display: flex;
+  justify-content: space-between;
+
+  @mixin atSm {
+    z-index: 99999;
+    position: fixed;
+    background: white;
+    width: 100%;
+    top: 0;
+  }
+}

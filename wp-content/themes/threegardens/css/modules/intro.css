@@ -1,0 +1,17 @@
+.intro {
+  position: absolute;
+  top: 2rem;
+  left: 0;
+  bottom: 0;
+  left: 0;
+
+  @media screen and (max-width: 388px) {
+    top: 2rem;
+  } 
+
+  @media screen and (max-width: 340px) {
+    top: 2rem;
+  }
+  
+
+}

@@ -1,0 +1,11 @@
+.info-bar {
+ background: $green;
+ padding: 1em; 
+ color: #fff;
+ display: flex;
+ justify-content: space-between;
+ 
+ @media screen and (max-width: 959px) {
+  display:none;
+ }
+}
