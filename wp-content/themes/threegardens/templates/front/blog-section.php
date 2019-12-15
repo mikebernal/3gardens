@@ -7,7 +7,7 @@
       $homepageBlog->the_post(); ?>
 
       <!-- single-post -->
-      <div class="single-post">
+      <div class="post">
         <a class="t-center c-dark" href="<?php the_permalink(); ?>">
           <span ><?php the_time('M d, Y'); ?></span> 
         </a>
