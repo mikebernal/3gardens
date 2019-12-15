@@ -24,4 +24,4 @@ node_modules/
 
 # ignore vscode settings
 
-/.vscode
+.vscode/
