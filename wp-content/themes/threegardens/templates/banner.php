@@ -1,11 +1,11 @@
 <?php
   if (is_front_page()) { ?>
-    <div class="page-banner page-banner__bg-image" style="background-image: url('<?php echo get_theme_file_uri('/images/garden-hero.jpg');?>');">
-      <div class="page-banner__content t-center c-white intro overlay">
+    <div class="page-banner page-banner__bg-image" style="background: url('<?php echo get_theme_file_uri('/images/garden-hero.jpg');?>') rgba(0, 0, 0, 0.4);background-size:cover;background-blend-mode: multiply;">
+      <div class="page-banner__content t-center c-white intro">
         <h1 class="headline headline--large"><?php bloginfo();?></h1>
         <h2 class="headline headline--medium"><?php bloginfo('description');?></h2>
         <h3 class="headline headline--small">Residential • Strata • Commercial</h3>
-        <a href="#" class="btn btn--large btn--green popmake-356">Get Quote</a>
+        <a href="#" class="btn btn--large btn--green popmake-356" style="opacity: 0.9">Get Quote</a>
       </div>
     </div>
 
