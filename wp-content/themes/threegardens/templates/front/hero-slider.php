@@ -15,7 +15,9 @@
         <div class="hero-slider__overlay">
           <h2 class="headline headline--medium t-center"><?php the_title();?></h2>
           <div class="t-center"><?php echo get_the_excerpt();?></div>
-          <p class="t-center no-margin"><a href="<?php the_permalink();?>" class="btn btn--green">View Project</a></p>
+          <p class="t-center" style="margin-top: 2em">
+            <a href="<?php the_permalink();?>" class="btn btn--green">View Project</a>
+          </p>
         </div>
       </div>
     </div>

@@ -27,4 +27,4 @@
 
       <?php  } wp_reset_postdata(); ?>
       
-      <p class="t-center no-margin" style="margin-top: 2em"><a href="<?php echo site_url('/blog'); ?>" class="btn btn--green">View All Blog Posts</a></p>
+      <p class="t-center no-margin" style="margin-top: 2em"><a href="<?php echo site_url('/blog'); ?>" class="btn btn--green">View More</a></p>

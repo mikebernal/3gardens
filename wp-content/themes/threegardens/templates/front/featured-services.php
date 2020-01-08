@@ -37,4 +37,4 @@
 </div>
 <!-- END OF card-holder -->
 
-<div class="t-center"><a href="<?php echo get_post_type_archive_link('service');?>" class="btn btn--green">View All Services</a></div>
+<div class="t-center"><a href="<?php echo get_post_type_archive_link('service');?>" class="btn btn--green">View Services</a></div>

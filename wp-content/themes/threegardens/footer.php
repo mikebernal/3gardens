@@ -1,6 +1,6 @@
 <div class="page-section">
   <?php if (!is_page('privacy-policy')) { ?>
-    <a href="#top" class="nu gray" style="float: right"><i class="fa fa-arrow-up"></i> Back to top</a>
+    <a href="#top" class="nu gray" style="float: right">Back to top <i class="fa fa-arrow-up"></i></a>
   <?php } ?>
 </div>
 

@@ -1020,6 +1020,10 @@ p, li {
 }
   }
 
+.blurb--front {
+  margin: 3rem 0 0 0;
+}
+
 .overlay {
   background: rgba(15, 15, 13, 0.521);
   padding: .5em;
@@ -1217,7 +1221,7 @@ body.login {
   width: 100%;
   border: 1px solid silver;
   padding: .5em; 
-  margin: 0 .5em 2em 0;
+  margin: 0 .5em 0 0;
 }
 
 .card__title {
@@ -1241,14 +1245,15 @@ body.login {
   }
 
 .card__blurb {
-    padding: .5em;
+    padding: .5em 0;
     height: 145px;
     overflow: hidden;
     margin-bottom: 1em;
   }
 
 .card__cta {
-    padding: .5em;
+
+
   }
 
 @media (max-width: 529px) {
@@ -1766,7 +1771,8 @@ body.login {
  }
 
 .page-banner {
-  background-color: #000;
+  background: rgba(15, 15, 13, 0.521);
+  opacity: -1;
   padding: 80px 0 40px 0;
 }
 
